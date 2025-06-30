@@ -7,6 +7,25 @@ const GITHUB_TEXT_FILE_URL = "https://raw.githubusercontent.com/Parcle-game/Link
 const GetUniverseApi = "https://apis.roproxy.com/universes/v1/places/";
 const GetGameDataApi = "https://games.roproxy.com/v1/games?universeIds=";
 
+// Jam info object to include as extra data
+const jamInfo = {
+    "lastUpdated": new Date().toISOString(),
+    "chalanceInfo": {
+        "1": {
+            "fullName": "Developer Chalange 2025",
+            "shortName": "Developer 25",
+            "Duration": "3 days",
+            "Start": "07-02-2025 | 7 feb 2025 | 23:00 | 11 pm | 0",
+            "End": "10-02-2025 | 10 feb 2025 | 23:00 | 11 pm | 0",
+            "Description": "the developer chalange always is a weekend in february the time to show off your skills by making a game in one weekend",
+            "Theme": "Break the system",
+            "OGName": "dev25_ID7"
+        },
+        // add other jams if needed
+    },
+    "TotalGameJams": 1
+};
+
 async function scrapeTextFileForGameIDs(url) {
     try {
         const { data } = await axios.get(url);
@@ -87,7 +106,13 @@ async function main() {
         index++;
     }
 
-    fs.writeFileSync("game_data.json", JSON.stringify(result, null, 2));
+    // Add jam info as an extra top-level property
+    const finalOutput = {
+        games: result,
+        jamInfo: jamInfo
+    };
+
+    fs.writeFileSync("game_data.json", JSON.stringify(finalOutput, null, 2));
     console.log("✅ All data saved to game_data.json");
 }
 
