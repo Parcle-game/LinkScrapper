@@ -108,7 +108,7 @@ async function main() {
 
     // Add jam info as an extra top-level property
     const finalOutput = {
-        games: result,
+        gameJam1: result,
         defaultData: defaultInfo 
     };
 
