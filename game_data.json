@@ -1,26 +1,44 @@
 {
-  "1": {
-    "placeID": "16503292356",
-    "universeID": 5684109503,
-    "gameData": {
-      "title": "egg hunt 2025 [beta]",
-      "description": "Egg hunt event by parcle games/ unviere events \n\nAre you ready for an adventure on the Easter islands. Not scared for dangerous caves. Like to play parkours. Then this game is something for you.\n\n🥚 Collect all 60 hidden eggs \n🔑 Get all 3 keys (premium users one extra when all 3 golden eggs for an extra badge)\n✨ collect all badges \n\nDon't forget to like, favourite and left some feedback \n\nThis egg hunt is a beter version of the egg hunt from 2022 what was the pre alpha\n\n©parcle games/ unviere events ",
-      "stats": {
-        "Playing": 0,
-        "Visits": 399,
-        "Favorited": 2
-      },
-      "attributes": {
-        "Created": "2024-02-24T13:46:19.007Z",
-        "Updated": "2025-06-27T15:29:49.367Z",
-        "Genre": "All",
-        "MaxPlayers": 50
-      },
-      "Creator": {
-        "Name": "parcle games (official group)",
-        "ID": 32385442,
-        "Type": "Group"
+  "games": {
+    "1": {
+      "placeID": "16503292356",
+      "universeID": 5684109503,
+      "gameData": {
+        "title": "egg hunt 2025 [beta]",
+        "description": "Egg hunt event by parcle games/ unviere events \n\nAre you ready for an adventure on the Easter islands. Not scared for dangerous caves. Like to play parkours. Then this game is something for you.\n\n🥚 Collect all 60 hidden eggs \n🔑 Get all 3 keys (premium users one extra when all 3 golden eggs for an extra badge)\n✨ collect all badges \n\nDon't forget to like, favourite and left some feedback \n\nThis egg hunt is a beter version of the egg hunt from 2022 what was the pre alpha\n\n©parcle games/ unviere events ",
+        "stats": {
+          "Playing": 0,
+          "Visits": 399,
+          "Favorited": 2
+        },
+        "attributes": {
+          "Created": "2024-02-24T13:46:19.007Z",
+          "Updated": "2025-06-27T15:29:49.367Z",
+          "Genre": "All",
+          "MaxPlayers": 50
+        },
+        "Creator": {
+          "Name": "parcle games (official group)",
+          "ID": 32385442,
+          "Type": "Group"
+        }
       }
     }
+  },
+  "jamInfo": {
+    "lastUpdated": "2025-06-30T15:32:10.243Z",
+    "chalanceInfo": {
+      "1": {
+        "fullName": "Developer Chalange 2025",
+        "shortName": "Developer 25",
+        "Duration": "3 days",
+        "Start": "07-02-2025 | 7 feb 2025 | 23:00 | 11 pm | 0",
+        "End": "10-02-2025 | 10 feb 2025 | 23:00 | 11 pm | 0",
+        "Description": "the developer chalange always is a weekend in february the time to show off your skills by making a game in one weekend",
+        "Theme": "Break the system",
+        "OGName": "dev25_ID7"
+      }
+    },
+    "TotalGameJams": 1
   }
 }
