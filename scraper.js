@@ -109,7 +109,7 @@ async function main() {
     // Add jam info as an extra top-level property
     const finalOutput = {
         games: result,
-        jamInfo: jamInfo
+        defaultInfo: defaultInfo 
     };
 
     fs.writeFileSync("game_data.json", JSON.stringify(finalOutput, null, 2));
