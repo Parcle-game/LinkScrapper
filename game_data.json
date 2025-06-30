@@ -25,18 +25,18 @@
       }
     }
   },
-  "jamInfo": {
-    "lastUpdated": "2025-06-30T15:32:10.243Z",
+  "defaultInfo": {
+    "lastUpdated": "2025-06-30T16:01:29.577Z",
     "chalanceInfo": {
       "1": {
-        "fullName": "Developer Chalange 2025",
-        "shortName": "Developer 25",
+        "fullName": "Egg hunt games",
+        "shortName": "Egg hunts",
         "Duration": "3 days",
         "Start": "07-02-2025 | 7 feb 2025 | 23:00 | 11 pm | 0",
         "End": "10-02-2025 | 10 feb 2025 | 23:00 | 11 pm | 0",
         "Description": "the developer chalange always is a weekend in february the time to show off your skills by making a game in one weekend",
         "Theme": "Break the system",
-        "OGName": "dev25_ID7"
+        "OGName": "EggHunts"
       }
     },
     "TotalGameJams": 1
