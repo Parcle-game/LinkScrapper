@@ -13,7 +13,7 @@
         },
         "attributes": {
           "Created": "2024-02-24T13:46:19.007Z",
-          "Updated": "2025-07-10T18:07:15.2307186Z",
+          "Updated": "2025-07-10T18:07:15.23Z",
           "Genre": "All",
           "MaxPlayers": 50
         },
@@ -26,7 +26,7 @@
     }
   },
   "defaultData": {
-    "lastUpdated": "2025-07-12T02:09:23.392Z",
+    "lastUpdated": "2025-07-12T06:35:20.675Z",
     "chalanceInfo": {
       "1": {
         "fullName": "Egg hunt games",
