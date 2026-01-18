@@ -1,7 +1,32 @@
 {
-  "gameJam1": {},
+  "gameJam1": {
+    "1": {
+      "placeID": "16503292356",
+      "universeID": 5684109503,
+      "gameData": {
+        "title": "egg hunt 2025 [beta]",
+        "description": "Egg hunt event by parcle games/ unviere events \n\nAre you ready for an adventure on the Easter islands. Not scared for dangerous caves. Like to play parkours. Then this game is something for you.\n\n🥚 Collect all 60 hidden eggs \n🔑 Get all 3 keys (premium users one extra when all 3 golden eggs for an extra badge)\n✨ collect all badges \n\nDon't forget to like, favourite and left some feedback \n\nThis egg hunt is a beter version of the egg hunt from 2022 what was the pre alpha\n\n©parcle games/ unviere events ",
+        "stats": {
+          "Playing": 0,
+          "Visits": 405,
+          "Favorited": 2
+        },
+        "attributes": {
+          "Created": "2024-02-24T13:46:19.007Z",
+          "Updated": "2025-11-06T13:10:49.08Z",
+          "Genre": "All",
+          "MaxPlayers": 50
+        },
+        "Creator": {
+          "Name": "parcle games (official group)",
+          "ID": 32385442,
+          "Type": "Group"
+        }
+      }
+    }
+  },
   "defaultData": {
-    "lastUpdated": "2026-01-18T06:39:21.761Z",
+    "lastUpdated": "2026-01-18T12:52:16.700Z",
     "chalanceInfo": {
       "1": {
         "fullName": "Egg hunt games",
